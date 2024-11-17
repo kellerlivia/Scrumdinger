@@ -11,6 +11,10 @@
 		D7D7489D2CE98CB40096D8B4 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D7489C2CE98CB40096D8B4 /* MeetingView.swift */; };
 		D7D7489F2CE98CB50096D8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D7489E2CE98CB50096D8B4 /* Assets.xcassets */; };
 		D7D748A22CE98CB50096D8B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D748A12CE98CB50096D8B4 /* Preview Assets.xcassets */; };
+		D7D748AA2CE995B60096D8B4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D748A92CE995B60096D8B4 /* Theme.swift */; };
+		D7D748AC2CE99A3C0096D8B4 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D748AB2CE99A3C0096D8B4 /* DailyScrum.swift */; };
+		D7D748AE2CE99AC70096D8B4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D748AD2CE99AC70096D8B4 /* CardView.swift */; };
+		D7D748B02CEA3ABC0096D8B4 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D748AF2CEA3ABC0096D8B4 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D7D7489C2CE98CB40096D8B4 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		D7D7489E2CE98CB50096D8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7D748A12CE98CB50096D8B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7D748A92CE995B60096D8B4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D7D748AB2CE99A3C0096D8B4 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		D7D748AD2CE99AC70096D8B4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D7D748AF2CEA3ABC0096D8B4 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		D7D748992CE98CB40096D8B4 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				D7D748B12CEA3DC30096D8B4 /* Views */,
+				D7D748A82CE995500096D8B4 /* Models */,
 				D7D7489A2CE98CB40096D8B4 /* ScrumdingerApp.swift */,
-				D7D7489C2CE98CB40096D8B4 /* MeetingView.swift */,
 				D7D7489E2CE98CB50096D8B4 /* Assets.xcassets */,
 				D7D748A02CE98CB50096D8B4 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				D7D748A12CE98CB50096D8B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7D748A82CE995500096D8B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7D748A92CE995B60096D8B4 /* Theme.swift */,
+				D7D748AB2CE99A3C0096D8B4 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7D748B12CEA3DC30096D8B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7D748AD2CE99AC70096D8B4 /* CardView.swift */,
+				D7D7489C2CE98CB40096D8B4 /* MeetingView.swift */,
+				D7D748AF2CEA3ABC0096D8B4 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D748AC2CE99A3C0096D8B4 /* DailyScrum.swift in Sources */,
+				D7D748B02CEA3ABC0096D8B4 /* TrailingIconLabelStyle.swift in Sources */,
+				D7D748AA2CE995B60096D8B4 /* Theme.swift in Sources */,
 				D7D7489D2CE98CB40096D8B4 /* MeetingView.swift in Sources */,
 				D7D7489B2CE98CB40096D8B4 /* ScrumdingerApp.swift in Sources */,
+				D7D748AE2CE99AC70096D8B4 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
